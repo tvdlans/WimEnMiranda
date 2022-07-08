@@ -1,0 +1,19 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Parallax */
+
+.parallax-image-wrapper {
+    overflow: hidden;
+}
+
+.parallax-image-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
