@@ -3,6 +3,32 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Gallery */
+
+h1 {
+    margin-bottom: 5vh;
+}
+
+.first-image {
+    filter: brightness(50%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
